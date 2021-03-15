@@ -1,0 +1,42 @@
+LOCAL_PATH := $(my-dir)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := com.google.android.gms
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := bin/com.google.android.gms-204714034.apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_OVERRIDES_PACKAGES := 
+LOCAL_PRIVILEGED_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := com.google.android.gsf
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := bin/com.google.android.gsf-8.apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_OVERRIDES_PACKAGES := 
+
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := com.android.vending
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := bin/com.android.vending-16.apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_OVERRIDES_PACKAGES := 
+LOCAL_PRIVILEGED_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := org.microg.gms.droidguard
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := bin/org.microg.gms.droidguard-4.apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_OVERRIDES_PACKAGES := 
+
+include $(BUILD_PREBUILT)
+

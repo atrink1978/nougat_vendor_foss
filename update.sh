@@ -59,53 +59,12 @@ downloadFromFdroid() {
 }
 
 
-#phh's Superuser
-downloadFromFdroid me.phh.superuser
-#Ciphered SMS
-downloadFromFdroid org.smssecure.smssecure "messaging"
-#Navigation
-downloadFromFdroid net.osmand.plus
-#Web browser
-downloadFromFdroid org.mozilla.fennec_fdroid "Browser2 QuickSearchBox"
-#Calendar
-downloadFromFdroid ws.xsoh.etar Calendar
-#Public transportation
-downloadFromFdroid de.grobox.liberario
-#Pdf viewer
-downloadFromFdroid com.artifex.mupdf.viewer.app
-#Play Store download
-downloadFromFdroid com.aurora.store
-#Mail client
-downloadFromFdroid com.fsck.k9 "Email"
-#Ciphered Instant Messaging
-#downloadFromFdroid im.vector.alpha
-#Calendar/Contacts sync
-downloadFromFdroid com.etesync.syncadapter
-#Nextcloud client
-downloadFromFdroid com.nextcloud.client
-# Todo lists
-downloadFromFdroid org.tasks
-
-downloadFromFdroid org.mariotaku.twidere
-downloadFromFdroid com.pitchedapps.frost
-downloadFromFdroid com.keylesspalace.tusky
-
-#Fake assistant that research on duckduckgo
-downloadFromFdroid co.pxhouse.sas
-
-downloadFromFdroid com.simplemobiletools.gallery.pro "Photos Gallery Gallery2"
-
-downloadFromFdroid com.aurora.adroid
-
 repo=https://microg.org/fdroid/repo/
 downloadFromFdroid com.google.android.gms
 downloadFromFdroid com.google.android.gsf
 downloadFromFdroid com.android.vending
 downloadFromFdroid org.microg.gms.droidguard
 
-repo=https://archive.newpipe.net/fdroid/repo/
-#YouTube viewer
-downloadFromFdroid org.schabi.newpipe
 
 echo >> apps.mk
 
